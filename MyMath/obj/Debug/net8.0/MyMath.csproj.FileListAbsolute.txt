@@ -1,0 +1,11 @@
+D:\Download\MyMath\MyMath\bin\Debug\net8.0\MyMath.deps.json
+D:\Download\MyMath\MyMath\bin\Debug\net8.0\MyMath.dll
+D:\Download\MyMath\MyMath\bin\Debug\net8.0\MyMath.pdb
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.AssemblyInfoInputs.cache
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.AssemblyInfo.cs
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.csproj.CoreCompileInputs.cache
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.dll
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\refint\MyMath.dll
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\MyMath.pdb
+D:\Download\MyMath\MyMath\obj\Debug\net8.0\ref\MyMath.dll

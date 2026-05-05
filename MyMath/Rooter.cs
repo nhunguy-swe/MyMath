@@ -13,7 +13,8 @@ public class Rooter {
         while  (Math.Abs(previousResult  -  result)  >  result  /  1000)
         {
             previousResult  =  result;
-            result = result - (result * result - input) / (2 * result);
+            // result = result - (result * result - input) / (2 * result);
+            result = (result + input / result) / 2;
         }
         return result;
     }

@@ -3,11 +3,9 @@ using MyMath;
 namespace MathTests;
 
 [TestClass]
-public class UnitTest1
-{
+public class UnitTest1 {
     [TestMethod]
-    public  void  BasicRooterTest()
-    {
+    public  void  BasicRooterTest() {
         // Create an instance to test:
         Rooter rooter = new Rooter();
         
@@ -37,5 +35,17 @@ public class UnitTest1
         double input = expectedResult * expectedResult; 
         double  actualResult  =  rooter.SquareRoot(input);
         Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 1000);
+    }
+    
+    [TestMethod]
+    public void RooterTestNegativeInput() {
+        Rooter rooter = new Rooter();
+        try {
+            rooter.SquareRoot(-10);
+        }
+        catch (System.ArgumentOutOfRangeException) {
+            return;
+        }
+        Assert.Fail();
     }
 }
